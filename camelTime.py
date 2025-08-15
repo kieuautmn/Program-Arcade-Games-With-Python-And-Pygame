@@ -88,10 +88,10 @@ while not done:
             "Hooooooey!!! You made it, camel'n all! Now get outta here 'fore you \ncause more trouble!"
         )
         done = True
-if done:
-    print("You wanna turn  back the clock and give it another try? (Y/N)")
-    choice = input("> ")
-    if choice.upper() == "Y":
-        done = False
-    else:
-        print("See ya next time!")
+    if done:
+        print("You wanna turn  back the clock and give it another try? (Y/N)")
+        choice = input("> ")
+        if choice.upper() == "Y":
+            done = False
+        else:
+            print("See ya next time!")
